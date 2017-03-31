@@ -11,9 +11,10 @@ public class GeradorDeUsuarios {
 
 		Usuario primeiro = new Usuario("Alessandro", "ale@gmail.com");
 		Usuario segundo = new Usuario("Patricia", "paty@yahoo.com.br");
+		Usuario terceiro = new Usuario("Ester", "ester@yahoo.com.br");
 		
-		List<Usuario> usuarios = Arrays.asList(primeiro, segundo);
-		
+		List<Usuario> usuarios = Arrays.asList(primeiro, segundo, terceiro);
+				
 		for (Usuario usuario : usuarios) {
 			System.out.println("Usuário: " + usuario);
 		}
